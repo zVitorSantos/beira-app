@@ -1,0 +1,150 @@
+{
+    "data": {
+        "id": 18543296407,
+        "numero": 2,
+        "numeroLoja": "",
+        "data": "{Data de Emissão}",
+        "dataSaida": "",
+        "dataPrevista": "{Data Prevista}",
+        "totalProdutos":"",
+        "total":"",
+        "contato": {
+            "id": 16251322487,
+            "nome": "",
+            "tipoPessoa": "J",
+            "numeroDocumento": "88.379.771/0035-21"
+        },
+        "situacao": {
+            "id": 6,
+            "valor": 0
+        },
+        "loja": {
+            "id": 0
+        },
+        "numeroPedidoCompra": "{Número OC}",
+        "outrasDespesas": 0,
+        "observacoes": "",
+        "observacoesInternas": "",
+        "desconto": {
+            "valor": 0,
+            "unidade": "REAL"
+        },
+        "categoria": {
+            "id": 14650247114
+        },
+        "itens": [
+            {
+                "id":"",
+                "codigo": "",
+                "unidade": "",
+                "quantidade": "{Quant.}",
+                "desconto": 0,
+                "valor": "{Vl. Unit.}",
+                "aliquotaIPI": 0,
+                "descricao": "",
+                "descricaoDetalhada": "",
+                "produto": {
+                    "id": ""
+                },
+                "comissao": {
+                    "base": "<float>",
+                    "aliquota": "<float>",
+                    "valor": "<float>"
+                  }
+            },
+            {
+                "id":"",
+                "codigo": "",
+                "unidade": "",
+                "quantidade": "{Quant.}",
+                "desconto": 0,
+                "valor": "{Vl. Unit.}",
+                "aliquotaIPI": 0,
+                "descricao": "",
+                "descricaoDetalhada": "",
+                "produto": {
+                    "id": ""
+                },
+                "comissao": {
+                    "base": "<float>",
+                    "aliquota": "<float>",
+                    "valor": "<float>"
+                  }
+            },
+            {
+                "id":"",
+                "codigo": "",
+                "unidade": "",
+                "quantidade": "{Quant.}",
+                "desconto": 0,
+                "valor": "{Vl. Unit.}",
+                "aliquotaIPI": 0,
+                "descricao": "",
+                "descricaoDetalhada": "",
+                "produto": {
+                    "id": ""
+                },
+                "comissao": {
+                    "base": "<float>",
+                    "aliquota": "<float>",
+                    "valor": "<float>"
+                  }
+            },
+            {
+                "id":"",
+                "codigo": "",
+                "unidade": "",
+                "quantidade": "{Quant.}",
+                "desconto": 0,
+                "valor": "{Vl. Unit.}",
+                "aliquotaIPI": 0,
+                "descricao": "",
+                "descricaoDetalhada": "",
+                "produto": {
+                    "id": ""
+                },
+                "comissao": {
+                    "base": "<float>",
+                    "aliquota": "<float>",
+                    "valor": "<float>"
+                  }
+            },
+            {
+                "id":"",
+                "codigo": "",
+                "unidade": "",
+                "quantidade": "{Quant.}",
+                "desconto": 0,
+                "valor": "{Vl. Unit.}",
+                "aliquotaIPI": 0,
+                "descricao": "",
+                "descricaoDetalhada": "",
+                "produto": {
+                    "id": ""
+                },
+                "comissao": {
+                    "base": "<float>",
+                    "aliquota": "<float>",
+                    "valor": "<float>"
+                  }
+            }
+        ],
+        "parcelas": [],
+        "transporte": {
+            "fretePorConta": 9,
+            "frete": 0,
+            "quantidadeVolumes": 1,
+            "pesoBruto": 0,
+            "prazoEntrega": 0,
+            "contato": {
+                "id": 0,
+                "nome": ""
+            }
+        },
+        "vendedor": {
+            "id": 15596262453
+        }
+    }
+}
+
+
