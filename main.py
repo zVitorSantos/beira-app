@@ -56,7 +56,7 @@ AUTH_URL = f"https://www.bling.com.br/Api/v3/oauth/authorize?response_type=code&
 
 BASE_URL = 'https://www.bling.com.br/Api/v3'
 
-VERIFY_URL = f'{BASE_URL}/contatos'
+VERIFY_URL = f'{BASE_URL}/produtos'
 
 TOKEN_URL = 'https://www.bling.com.br/Api/v3/oauth/token'
 
@@ -246,10 +246,6 @@ def main():
     def open_etiqueta():
         os.environ["LAUNCHED_FROM_MAIN"] = "True"
         subprocess.Popen(["python", "scripts/etiqueta.py"])
-
-    def open_xml():
-        os.environ["LAUNCHED_FROM_MAIN"] = "True"
-        subprocess.Popen(["python", "scripts/emitir_xml.py"])
         
     def mask_token(token):
         return token[:13] + "*****"
@@ -277,15 +273,9 @@ def main():
     buttons_frame = tk.CTkFrame(root, fg_color='transparent')
     buttons_frame.pack()
 
-    # Botões para escolher entre Envio e Cadastro
-    btn_envio = tk.CTkButton(buttons_frame, text="Adicionar\nPedido", command=open_envio, **botao_estilo)
     btn_etiqueta = tk.CTkButton(buttons_frame, text="Gerar\nEtiqueta", command=open_etiqueta, **botao_estilo)
-    btn_xml = tk.CTkButton(buttons_frame, text="Gerar\nXML", command=open_xml, **botao_estilo)
 
-    # Usando grid para posicionar os botões lado a lado
-    btn_envio.grid(row=0, column=0, padx=10) 
-    btn_etiqueta.grid(row=0, column=2, padx=10)
-    btn_xml.grid(row=0, column=3, padx=10)
+    btn_etiqueta.grid(row=0, column=1, padx=10)
 
     threading.Thread(target=update_time_remaining, args=(time_remaining_label, refresh_token, client_credentials_base64)).start()
 

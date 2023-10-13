@@ -38,7 +38,7 @@ root.title("")
 root.geometry("175x160")
 root.resizable(False, False)
 
-center_window(root, 175, 160)
+center_window(root, 175, 200)
 
 label = tk.CTkLabel(root, font=('Helvetica', 16, 'bold'), text="Selecione a empresa:")
 label.pack(pady=10)
@@ -49,7 +49,7 @@ warning_label.pack_forget()
 
 company_var = tk.StringVar(value="None")
 
-companies = ["Maggiore Modas", "Brilha Natal"]
+companies = ["Maggiore Modas","Maggiore Pecas", "Brilha Natal"]
 
 # Adicionar o comando toggle_button_state ao CTkRadioButton
 for company in companies:
